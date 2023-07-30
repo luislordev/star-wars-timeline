@@ -8,11 +8,13 @@ export const App = () => {
     <>
       <div className="bg-base-100 drawer">
         <input id="sidebar" type="checkbox" className="drawer-toggle" />
-        <main className='drawer-content'>
+        <div className='drawer-content'>
           <Navbar />
-          <AppRouter />
+          <main>
+            <AppRouter />
+          </main>
           <Footer />
-        </main>
+        </div>
         <SideBar />
       </div>
     </>

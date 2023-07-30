@@ -1,6 +1,7 @@
+import { HomeView } from '../components/HomeView'
 
 export const HomePage = () => {
     return (
-        <h1>Home</h1>
+        <HomeView />
     )
 }

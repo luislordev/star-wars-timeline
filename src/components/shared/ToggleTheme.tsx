@@ -4,7 +4,7 @@ import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
 import { ChangeEvent, useEffect, useState } from 'react'
 
 export const ToggleTheme = () => {
-    const [theme, setTheme] = useState('light')
+    const [theme, setTheme] = useState('dark')
     useEffect(() => {
         document.querySelector('html')?.setAttribute('data-theme', theme)
     }, [theme])

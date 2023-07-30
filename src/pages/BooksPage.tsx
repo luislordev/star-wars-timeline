@@ -1,6 +1,9 @@
+import { BooksView } from '../components/BooksView'
 
 export const BooksPage = () => {
     return (
-        <h1>Books</h1>
+        <section className='container mx-auto py-10'>
+            <BooksView />
+        </section>
     )
 }
